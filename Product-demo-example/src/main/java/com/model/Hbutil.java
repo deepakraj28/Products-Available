@@ -7,7 +7,7 @@ import org.hibernate.service.ServiceRegistry;
 
 public class Hbutil
 {
-	//private static StandardServiceRegistry registry=null;
+	
 	private static SessionFactory sf;
       
 	public static SessionFactory buildFactory() {		
